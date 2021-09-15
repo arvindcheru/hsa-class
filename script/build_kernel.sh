@@ -45,8 +45,8 @@ if [ -e $LIB_DIR/bitcode/opencl.amdgcn.bc ]; then
   BC_DIR=$LIB_DIR/bitcode
 elif [ -e $LIB_DIR/opencl.amdgcn.bc ]; then
   BC_DIR=$LIB_DIR
-elif [ -e $ROCM_DIR/amdgcn/bitcode/opencl.bc ]; then
-  BC_DIR=$ROCM_DIR/amdgcn/bitcode
+elif [ -e $ROCM_DIR/lib/amdgcn/bitcode/opencl.bc ]; then
+  BC_DIR=$ROCM_DIR/lib/amdgcn/bitcode
 else
   echo "Error: Cannot find amdgcn bitcode directory"
   exit 1
