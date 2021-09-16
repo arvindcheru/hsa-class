@@ -25,12 +25,12 @@ POSSIBILITY OF SUCH DAMAGE.
 #ifndef _HSA_RSRC_FACTORY_H_
 #define _HSA_RSRC_FACTORY_H_
 
-#include <hsa.h>
-#include <hsa_api_trace.h>
-#include <hsa_ext_amd.h>
-#include <hsa_ext_finalize.h>
-#include <hsa_ven_amd_aqlprofile.h>
-#include <hsa_ven_amd_loader.h>
+#include <hsa/hsa.h>
+#include <hsa/hsa_api_trace.h>
+#include <hsa/hsa_ext_amd.h>
+#include <hsa/hsa_ext_finalize.h>
+#include <hsa/hsa_ven_amd_aqlprofile.h>
+#include <hsa/hsa_ven_amd_loader.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
